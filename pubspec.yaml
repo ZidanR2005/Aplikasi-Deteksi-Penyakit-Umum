@@ -1,0 +1,29 @@
+name: sistem_pakar_penyakit
+description: Aplikasi Sistem Pakar Deteksi Penyakit Umum menggunakan Metode Dempster-Shafer
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+  percent_indicator: ^4.2.3
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  google_generative_ai: ^0.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
